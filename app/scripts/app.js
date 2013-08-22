@@ -7,6 +7,10 @@ angular.module('footballsqApp', [])
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/square', {
+        templateUrl: 'views/square.html',
+        controller: 'SquareCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
