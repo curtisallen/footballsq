@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('footballsqApp', [])
+angular.module('footballsqApp', ['firebase'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
